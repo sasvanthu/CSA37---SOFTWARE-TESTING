@@ -1,0 +1,15 @@
+Data Id,Field,Test data,Type,Expected result,Actual result,Status
+TD01,Passengers,0,Invalid (below the boundary),"Error ""Minimum 1 passenger""","Error ""Minimum 1 passenger""",Pass
+TD02,Passengers,1,Valid (lower boundary),Booking page is displayed,Booking page is displayed,Pass
+TD03,Passengers,6,Valid (upper boundary),Booking page is displayed,Booking page is displayed,Pass
+TD04,Passengers,7,Invalid (above the boundary),"Error ""Maximum 6 passengers""","Error ""Maximum 6 passengers""",Pass
+TD05,Passenger age,4,"Valid (child, free ticket)",Fare = 0,Fare = 0,Pass
+TD06,Passenger age,-1,Invalid,"Error ""Enter a valid age""","Error ""Enter a valid age""",Pass
+TD07,Travel date,Yesterday,Invalid (past date),"Error ""Date cannot be in the past""","Error ""Date cannot be in the past""",Pass
+TD08,Travel date,Today + 120 days,Valid (upper boundary),Seats are displayed,Seats are displayed,Pass
+TD09,Travel date,Today + 121 days,Invalid (above the boundary),"Error ""Booking is not open""","Error ""Booking is not open""",Pass
+TD10,Travel class,SL / AC,Valid,Fare of the class is displayed,Fare of the class is displayed,Pass
+TD11,Payment mode,Card / UPI / Net banking,Valid,Payment page is displayed,Payment page is displayed,Pass
+TD12,Payment mode,(none selected),Invalid,"Error ""Select the payment mode""","Error ""Select the payment mode""",Pass
+TD13,Passenger age,120,Valid (upper boundary),Booking page is displayed,Booking page is displayed,Pass
+TD14,Passenger age,121,Invalid (above the boundary),"Error ""Enter a valid age""","Error ""Enter a valid age""",Pass

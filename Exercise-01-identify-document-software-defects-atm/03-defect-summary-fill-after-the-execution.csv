@@ -1,0 +1,4 @@
+Severity,Number of defects,Bug Ids
+Critical,3,"ATM001, ATM002, ATM010"
+Major,6,"ATM003, ATM004, ATM005, ATM006, ATM007, ATM011"
+Minor,2,"ATM008, ATM009"

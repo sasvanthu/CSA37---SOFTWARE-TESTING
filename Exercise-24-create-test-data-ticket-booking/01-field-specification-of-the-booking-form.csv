@@ -1,0 +1,8 @@
+Field,Rule
+Passengers,1 to 6
+Passenger age,0 to 120; below 5 free; 5 to 12 half fare; 60 and above 40% discount
+Travel date,Today up to 120 days ahead
+Travel class,"SL, 3A, 2A, 1A"
+Mobile number,"10 digits, starts with 6, 7, 8 or 9"
+E-mail,Valid format with one @ and a domain
+Payment mode,"Card, UPI or net banking"

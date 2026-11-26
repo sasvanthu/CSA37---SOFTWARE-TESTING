@@ -1,0 +1,6 @@
+Tour,What is explored,Charters
+Feature tour,"Every menu, screen and button once","EX01, EX04, EX06"
+Data tour,"Valid, invalid and boundary data in every field","EX01, EX02, EX03"
+Back-alley tour,"Rarely used functions (delete, import, export)","EX05, EX08"
+Interruption tour,"Cancel, back, refresh and session time out in the middle of an action","EX05, EX08"
+Security tour,"Login, roles and access to the pages of other roles",EX07

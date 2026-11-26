@@ -1,0 +1,6 @@
+Changed component,Impacted modules,Risk
+Editor (new version),"Pages, media library, publishing",High
+Security patch for the login,"Login, user roles, password reset",High
+Theme update,"Front-end pages, menus",Medium
+SEO plug-in update,"Page meta tags, sitemap",Medium
+Unchanged modules,"Search, comments",Low (sample check)

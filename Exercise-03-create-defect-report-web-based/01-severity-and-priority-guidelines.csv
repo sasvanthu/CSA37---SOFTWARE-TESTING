@@ -1,0 +1,6 @@
+Level,Meaning,Example
+Severity : Critical,"System crash, data loss or the main function is blocked",Form submission stops the server
+Severity : Major,A main function gives a wrong result,Invalid e-mail accepted
+Severity : Minor,A small functional defect with a work around,Wrong error message text
+Severity : Trivial,Cosmetic defect,Label is misaligned
+Priority : High / Medium / Low,Urgency of the fix decided with the project manager,High = fix in the next build

@@ -1,0 +1,12 @@
+Bug Id,Bug Name,Steps to Reproduce,Expected Result,Actual Result (defect)
+ATM001,Invalid card,Insert a valid card,Welcome screen is displayed,Invalid card message is displayed
+ATM002,Invalid PIN,Insert a valid card and enter the correct PIN,Menu screen is displayed,Invalid PIN message is displayed
+ATM003,Invalid account type,"Enter PIN, select Withdraw and select Savings",Enter amount screen is displayed,Invalid account type message is displayed
+ATM004,Insufficient balance,Withdraw an amount less than the balance,Cash is dispensed,Insufficient balance message is displayed
+ATM005,Transaction limit,Withdraw an amount within the per transaction limit,Cash is dispensed,Transaction limit exceeded message is displayed
+ATM006,Day limit,Withdraw within the daily limit,Cash is dispensed,Daily limit exceeded message is displayed
+ATM007,Invalid denominations,Withdraw 500 (a valid multiple of 100),Cash is dispensed,Invalid denomination message is displayed
+ATM008,Receipt not printed,Complete a withdrawal and request the receipt,Receipt is printed,Receipt is not printed
+ATM009,PIN change mismatch,Change PIN and enter the same new PIN twice,PIN is changed,PIN mismatch message is displayed
+ATM010,Wrong PIN three times,Enter a wrong PIN three times,Card is blocked and a message is displayed,Card is not blocked and no message is displayed
+ATM011,Cancel the transaction,Select Withdraw and press Cancel,Card is returned to the user,Transaction continues and the card is not returned

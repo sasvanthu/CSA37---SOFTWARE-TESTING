@@ -1,0 +1,4 @@
+Condition / action,R1,R2,R3,R4
+Valid user name,Yes,Yes,No,No
+Valid password,Yes,No,Yes,No
+Action,Home page,Error message,Error message,Error message

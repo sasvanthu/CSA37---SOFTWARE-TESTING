@@ -1,0 +1,4 @@
+Type,Performed by,Place,Purpose
+Alpha test,Internal users or testers who are not in the development team,Developer's site,Find the defects before the release to the customer
+Beta test,Selected real users (hotel staff and guests),User's own site,Confirm the fitness for use in the real environment
+User acceptance test (UAT),Customer representatives,Acceptance environment,Decide the acceptance of the system

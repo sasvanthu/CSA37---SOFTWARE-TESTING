@@ -1,0 +1,9 @@
+Charter,Mission,Test ideas to explore,Time box,Defects / notes
+EX01,Explore adding a product,"Blank fields, duplicate product code, negative price, very long name",30 min,Duplicate product code is accepted; negative price is saved (2 defects)
+EX02,Explore stock update,"Add stock, remove more stock than available, decimal quantity, zero quantity",30 min,Stock becomes negative when more than the available stock is removed; decimal quantity is accepted (2 defects)
+EX03,Explore the reorder level alert,"Stock equal to, below and above the reorder level",30 min,Alert is not raised when the stock is equal to the reorder level (1 defect)
+EX04,Explore search and filter,"Partial name, upper and lower case, special characters, empty search",30 min,Search is case sensitive; special characters give an error page (2 defects)
+EX05,Explore deleting a product,"Delete a product with stock, delete a product used in an order, undo",30 min,A product used in an order can be deleted; there is no undo (2 defects)
+EX06,Explore the stock report,"Export with no data, with large data, date range, sorting",30 min,Export with no data creates an empty file without any message (1 defect)
+EX07,Explore login and user roles,"Wrong password, expired session, access to a page of another role",30 min,"The page of another role opens when its URL is typed (1 defect, High)"
+EX08,Explore import and export,"Wrong file format, empty file, file with duplicate product codes",30 min,A file with duplicate product codes is imported without a warning (1 defect)

@@ -1,0 +1,11 @@
+TC ID,Module,Test description,Priority,Reason for selection,Status
+RG01,Login,Login with a valid administrator,High,Security patch,Pass
+RG02,Login,Wrong password is rejected,High,Security patch,Pass
+RG03,Editor,Create a page with text and image,High,Editor updated,Pass
+RG04,Editor,Save and reopen a page,High,Editor updated,Pass
+RG05,Media library,Upload and delete an image,Medium,Depends on the editor,Fail
+RG06,Publishing,Publish and unpublish a page,High,Depends on the editor,Pass
+RG07,User roles,Editor role cannot delete a user,Medium,Security patch,Pass
+RG08,Search,Search for a published page,Low,Not changed (sample check),Pass
+RG09,Comments,Add and approve a comment,Medium,Depends on the editor,Fail
+RG10,Backup,Take a backup and restore it,High,Security patch,Pass

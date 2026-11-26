@@ -1,0 +1,12 @@
+TC ID,Equivalence class,"Input (A, B, operation)",Expected result,Actual result,Status
+TC01,Valid : both numbers positive,"5, 3, +",8,8,Pass
+TC02,Valid : both numbers negative,"-5, -3, +",-8,-8,Pass
+TC03,Valid : one positive and one negative,"5, -3, +",2,2,Pass
+TC04,Valid : zero,"0, 0, +",0,0,Pass
+TC05,Valid : division by a non-zero number,"20, 5, /",4,4,Pass
+TC06,Invalid : division by zero,"20, 0, /","Error message ""Cannot divide by zero""","Error message ""Cannot divide by zero""",Pass
+TC07,Invalid : non-numeric input,"abc, 5, +","Error message ""Enter a valid number""","Error message ""Enter a valid number""",Pass
+TC08,Invalid : empty input,"(blank), 5, +","Error message ""Enter a valid number""","Error message ""Enter a valid number""",Pass
+TC09,Valid : decimal numbers,"2.5, 1.5, *",3.75,3.75,Pass
+TC10,Valid : result is a negative number,"3, 5, -",-2,-2,Pass
+TC11,Invalid : unsupported operation,"5, 3, %","Error message ""Invalid operation""","Error message ""Invalid operation""",Pass

@@ -1,0 +1,4 @@
+Class with most defects,Cause,Preventive action,Owner
+"Coding (2 defects, includes the critical defect LN-05)",The unit of the period (years or months) and the loop limit were not checked in the code review,Code inspection and unit testing of the EMI and the amortisation modules before every build,Development lead
+Requirements / specification (2 defects),The requirement document was not reviewed for the missing limits and the ambiguous statements,"Review of the requirement document with a checklist (limits, roles and special cases)",Business analyst
+Design (2 defects),The special cases (zero interest) and the guarantor data were not considered in the design,Design review and walkthrough of the data model and the EMI logic,Design lead

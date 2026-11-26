@@ -1,0 +1,16 @@
+TC ID,Marks,Boundary tested,Expected result,Actual result,Status
+TC01,-1,Just below the minimum,Invalid marks message,Invalid marks message,Pass
+TC02,0,Minimum,Grade F,Grade F,Pass
+TC03,49,Upper boundary of F,Grade F,Grade F,Pass
+TC04,50,Lower boundary of E,Grade E,Grade E,Pass
+TC05,59,Upper boundary of E,Grade E,Grade E,Pass
+TC06,60,Lower boundary of D,Grade D,Grade D,Pass
+TC07,69,Upper boundary of D,Grade D,Grade D,Pass
+TC08,70,Lower boundary of C,Grade C,Grade C,Pass
+TC09,79,Upper boundary of C,Grade C,Grade C,Pass
+TC10,80,Lower boundary of B,Grade B,Grade B,Pass
+TC11,89,Upper boundary of B,Grade B,Grade B,Pass
+TC12,90,Lower boundary of A,Grade A,Grade A,Pass
+TC13,100,Maximum,Grade A,Grade A,Pass
+TC14,101,Just above the maximum,Invalid marks message,Invalid marks message,Pass
+TC15,abc,Non-numeric value (error guessing),Invalid marks message,Invalid marks message,Pass

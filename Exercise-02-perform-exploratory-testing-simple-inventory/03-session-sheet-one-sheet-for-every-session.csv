@@ -1,0 +1,7 @@
+Field,Details
+Charter id / tester / date,EX01 / Tester 1 / 05 Oct 2026
+Time split (design and execution / bug investigation / setup),Test design and execution 70 % (21 min) / bug investigation 20 % (6 min) / setup 10 % (3 min)
+Defects found (ids),"INV-01 (duplicate product code accepted), INV-02 (negative price saved)"
+Issues and questions,Is the maximum length of the product name defined in the requirement? What is the valid range of the price?
+New test ideas,Product code with spaces and special characters; add 100 products one after another; edit a product while it is in an order
+Debriefing notes,Area covered: add product screen. 2 defects found. EX02 (stock update) is the next charter because the stock field also accepts a negative value.

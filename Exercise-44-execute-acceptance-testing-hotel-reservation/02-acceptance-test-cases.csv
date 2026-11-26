@@ -1,0 +1,11 @@
+AC Id,Requirement,Acceptance test,Expected result,Actual result,Accept / Reject
+AC01,Search the available rooms,"Search by the check-in date, check-out date and guests",Available rooms and rates are displayed,Available rooms and rates are displayed,Accept
+AC02,Book a room,Select a room and enter the guest details,Booking is confirmed with a booking number,Booking is confirmed with a booking number,Accept
+AC03,Online payment,Pay the advance using a card,Payment receipt is displayed,Payment receipt is displayed,Accept
+AC04,Booking confirmation,Complete a booking,Confirmation e-mail is received in 5 minutes,Confirmation e-mail is received in 5 minutes,Accept
+AC05,Modify a booking,Change the check-out date,New date and amount are displayed,New date and amount are displayed,Accept
+AC06,Cancel a booking,Cancel a booking before the cancellation limit,Booking is cancelled and the refund is shown,Booking is cancelled and the refund is shown,Accept
+AC07,Reception view,Receptionist opens the list of today's arrivals,List of the guests is displayed,List of the guests is displayed,Accept
+AC08,Generate the bill,Check-out a guest,Bill with the room charge and the tax is printed,Bill with the room charge and the tax is printed,Accept
+AC09,Guest feedback,Submit the feedback after the check-out,Feedback is saved,Feedback is saved,Accept
+AC10,Role-based access,Receptionist opens the admin report,Access is denied,Access is denied,Accept

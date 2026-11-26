@@ -1,0 +1,10 @@
+Field,Details
+Defect Id,WF-001
+Summary,The form accepts an e-mail address without the @ symbol
+Module,Registration form
+Severity / Priority,Major / High
+Steps to reproduce,1. Open the registration page.  2. Enter the name and the e-mail address abc.com.  3. Click Submit.
+Expected result,"Error message ""Enter a valid e-mail address"" is displayed and the form is not submitted"
+Actual result,The form is submitted and the success page is displayed
+Environment,"Windows 11, Chrome (latest), test server"
+Status,New

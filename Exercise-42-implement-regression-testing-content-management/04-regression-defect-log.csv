@@ -1,0 +1,3 @@
+Defect Id,Test case,Description,Severity,Status
+DEF-01,RG05,Image is not deleted from the media library after the Delete action,Major,Open
+DEF-02,RG09,Approved comment is displayed twice on the page,Minor,Open

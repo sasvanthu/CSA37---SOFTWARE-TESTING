@@ -1,0 +1,6 @@
+Stage,Verification points
+Cart,"Items, quantity, price and total are correct"
+Address and delivery,Address is saved; delivery charge and date are shown
+Coupon,Valid coupon reduces the total; invalid coupon gives a message
+Payment,Success moves to the confirmation; failure keeps the cart
+Confirmation,"Order number, e-mail or SMS, reduced stock and order history"

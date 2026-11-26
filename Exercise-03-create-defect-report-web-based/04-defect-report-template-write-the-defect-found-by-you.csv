@@ -1,0 +1,7 @@
+Field,Details
+Defect Id / summary,WF-003 / The mobile number field accepts letters
+Module / severity / priority,Registration form / Major / High
+Steps to reproduce,1. Open the registration page.  2. Enter abcdefghij in the Mobile number field.  3. Fill the other fields correctly and click Submit.
+Expected result / actual result,"Error message ""Enter a valid mobile number"" is displayed / The form is submitted with letters in the mobile number"
+Environment / attachment,"Windows 11, Chrome (latest), test server / WF-003.png"
+Reported by / date / status,Tester 1 / 12 Oct 2026 / New

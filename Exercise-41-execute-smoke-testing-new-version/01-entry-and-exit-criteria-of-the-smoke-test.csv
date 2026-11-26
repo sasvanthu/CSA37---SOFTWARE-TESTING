@@ -1,0 +1,5 @@
+Criteria,Condition
+Entry,"Build is installed, the test accounts are ready and the network is available"
+Pass,All the critical checks pass in the time limit
+Fail,Any critical check fails or the application crashes
+Exit,Decision recorded: build accepted for detailed testing or rejected

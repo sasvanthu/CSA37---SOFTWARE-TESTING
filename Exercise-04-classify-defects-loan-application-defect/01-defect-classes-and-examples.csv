@@ -1,0 +1,5 @@
+Defect class,Meaning,Example
+Requirements / specification,"Missing, ambiguous or contradictory requirement",Maximum loan amount is not stated
+Design,"Wrong module interface, algorithm or data design",Zero interest rate not handled in the EMI design
+Coding,"Syntax, logic, data or control flow mistakes",EMI calculated for years instead of months
+Testing,"Wrong test case, test data or test environment",Wrong expected value for the age limit

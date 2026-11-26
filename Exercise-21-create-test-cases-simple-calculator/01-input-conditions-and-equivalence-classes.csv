@@ -1,0 +1,4 @@
+Input condition,Valid classes,Invalid classes
+First and second number,V1: positive integer;  V2: negative integer;  V3: zero,I1: non-numeric;  I2: blank;  I3: above 9999;  I4: below -9999;  I5: decimal number
+Operation,"V4: +, -, *, /",I6: no operation selected
+Divisor (for /),V5: non-zero number,I7: zero

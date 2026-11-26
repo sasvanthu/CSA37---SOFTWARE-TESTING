@@ -1,0 +1,13 @@
+TC ID,Test scenario,Test data,Expected result,Actual result,Status
+TC01,Valid user name and password,student / Secret@123,Home page is displayed,Home page is displayed,Pass
+TC02,"Valid user name, wrong password",student / wrong,"Error ""Invalid credentials""","Error ""Invalid credentials""",Pass
+TC03,"Wrong user name, valid password",stud / Secret@123,"Error ""Invalid credentials""","Error ""Invalid credentials""",Pass
+TC04,Both fields blank,(blank) / (blank),"Error ""User name and password are required""","Error ""User name and password are required""",Pass
+TC05,User name blank,(blank) / Secret@123,"Error ""User name is required""","Error ""User name is required""",Pass
+TC06,Password blank,student / (blank),"Error ""Password is required""","Error ""Password is required""",Pass
+TC07,Password is case sensitive,student / secret@123,"Error ""Invalid credentials""","Error ""Invalid credentials""",Pass
+TC08,SQL injection in the user name,' OR '1'='1 / abc,Login is rejected,Login is rejected,Pass
+TC09,Password is masked,Type any password,Characters are shown as dots,Characters are shown as dots,Pass
+TC10,Account is locked after 3 wrong attempts,3 times wrong password,"Error ""Account locked""","Error ""Account locked""",Pass
+TC11,Back button after the logout,"Login, logout and press the Back button",Login page is displayed and the session is not reused,Login page is displayed and the session is not reused,Pass
+TC12,Spaces before and after the user name,student  / Secret@123,Login as per the specification (trimmed) or an error message,Login is accepted after the spaces are trimmed,Pass

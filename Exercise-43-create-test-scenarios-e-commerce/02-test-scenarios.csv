@@ -1,0 +1,11 @@
+Scenario Id,Scenario,Steps,Expected result,Actual result,Status
+CK01,Checkout as a registered user,"Login, add a product, checkout, pay by card",Order is placed and the confirmation page is displayed,Order is placed and the confirmation page is displayed,Pass
+CK02,Checkout as a guest,"Add a product, checkout without login, enter the address",Guest order is placed,Guest order is placed,Pass
+CK03,Apply a valid coupon,Enter a valid coupon in the cart,Discount is applied to the total,Discount is applied to the total,Pass
+CK04,Apply an invalid coupon,Enter an expired coupon,Error message and the total is unchanged,Error message and the total is unchanged,Pass
+CK05,Product is out of stock,Proceed to checkout with a product that has no stock,"Message ""Out of stock"" and the order is not placed","Message ""Out of stock"" and the order is not placed",Pass
+CK06,Payment failure,Enter an invalid card number,Payment failure message and the order is not placed,Payment failure message and the order is not placed,Pass
+CK07,Change the delivery address,Change the address before payment,New address is shown in the order summary,New address is shown in the order summary,Pass
+CK08,Order confirmation,Complete an order,Confirmation e-mail / SMS is sent and the stock is reduced,Confirmation e-mail / SMS is sent and the stock is reduced,Pass
+CK09,Cancel an order,Cancel an order before the shipment,Order is cancelled and the amount is refunded,Order is cancelled and the amount is refunded,Pass
+CK10,Session timeout,Keep the payment page idle for 15 minutes,Session expires and the cart is retained,Session expires and the cart is retained,Pass
